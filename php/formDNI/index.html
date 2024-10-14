@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario PHP</title>
+</head>
+<body>
+    <h1>Adivinador de letra del DNI</h1>
+    <form action="comprobarnif.php" method="post">
+        <p>
+            DNI sin letra
+            <br>
+            <input type="number" name="dni" required />
+        </p>
+        <p>
+            DNI con letra
+            <br>
+            <input type="text" name="dnil" required />
+        </p>
+        <button type="submit">Comprobar</button>
+    </form>
+</body>
+</html>
